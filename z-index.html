@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+div{
+    position: absolute;
+    background-color: blue;
+}
+section{
+    background-color: brown;
+}
+.one{
+    z-index: 2;
+}
+.two{
+    z-index: 3;
+}
+.red{
+    z-index: 4;
+    background-color: rgb(255, 0, 0);
+    width: 20px;
+    height: 20px;
+}
+.blue{
+    z-index: 3;
+    background-color: rgb(4, 0, 255);
+    width: 20px;
+    height: 20px;
+}
+.yellow{
+    z-index: 5;
+    background-color: rgb(255, 230, 0);
+    width: 20px;
+    height: 20px;
+}
+
+</style>
+<body>
+
+
+    <section>
+        <div class="red">red</div>
+        <div class="blue">blue
+        <div class="yellow">yellow</div>
+    </div>
+    </section>
+</body>
+</html>
